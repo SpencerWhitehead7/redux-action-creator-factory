@@ -1,0 +1,22 @@
+{
+  "name": "redux_action_creator_factory",
+  "version": "1.0.0",
+  "description": "Fuction that accepts action types and payloads and returns Redux action creators",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Redux",
+    "action",
+    "creator",
+    "payload",
+    "action",
+    "type"
+  ],
+  "author": "kerrd268@gmail.com spencerwhitehead7@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
