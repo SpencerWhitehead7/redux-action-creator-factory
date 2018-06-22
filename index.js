@@ -1,12 +1,9 @@
-const ActionCreatorFactory = (actiontypes, payloads) => {
-  if(actiontypes.length !== payloads.length){
-    throw new Error(`Actiontype and payload arrays must be the same length. Enter null as a placeholder if an action creator does not need a payload`)
+const ActionCreatorFactory = (type, ...payload) => {
+  const actionCreator = {
+    type,
   }
-  const ActionCreators = {}
-  actiontypes.forEach((actiontype, i) => {
-    ActionCreators[actiontype] = { type : actiontype, payload : payloads[i] }
-  })
-  return ActionCreators
+  if(payload.length > 0) actionCreator.payload = payload[0]
+  return actionCreator
 }
 
-export default ActionCreatorFactory
+module.exports = ActionCreatorFactory
