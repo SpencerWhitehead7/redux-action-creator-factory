@@ -4,7 +4,7 @@
   "description": "Fuction that accepts action types and payloads and returns Redux action creators",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha ./tests.spec.js"
   },
   "keywords": [
     "Redux",
@@ -17,6 +17,6 @@
   "author": "kerrd268@gmail.com spencerwhitehead7@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "mocha": "^5.2.0"
+    "chai": "^4.1.2"
   }
 }
