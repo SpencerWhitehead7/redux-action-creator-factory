@@ -19,7 +19,10 @@
     "type": "git",
     "url": "https://github.com/SpencerWhitehead7/redux-action-creator-factory"
   },
-  "author": "kerrd268@gmail.com, spencerwhitehead7@gmail.com",
+  "contributors": [
+    "Daniel Kerr <kerrd268@gmail.com> (github.com/dk268)",
+    "Spencer Whitehead <spencerWhitehead7@gmail.com (github.com/spencerwhitehead7)"
+  ],
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
