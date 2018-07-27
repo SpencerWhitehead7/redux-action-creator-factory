@@ -15,9 +15,14 @@
     "type",
     "dispatch"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpencerWhitehead7/redux-action-creator-factory"
+  },
   "author": "kerrd268@gmail.com, spencerwhitehead7@gmail.com",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.1.2"
   }
 }
