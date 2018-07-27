@@ -1,6 +1,6 @@
 {
   "name": "redux-action-creator-factory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A function that accepts action types and payloads and returns Redux action creators",
   "main": "index.js",
   "scripts": {
