@@ -1,7 +1,7 @@
 {
-  "name": "redux_action_creator_factory",
+  "name": "redux-action-creator-factory",
   "version": "1.0.0",
-  "description": "Fuction that accepts action types and payloads and returns Redux action creators",
+  "description": " A fuction that accepts action types and payloads and returns Redux action creators",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests.spec.js"
@@ -10,11 +10,12 @@
     "Redux",
     "action",
     "creator",
+    "factory",
     "payload",
-    "action",
-    "type"
+    "type",
+    "dispatch"
   ],
-  "author": "kerrd268@gmail.com spencerwhitehead7@gmail.com",
+  "author": "kerrd268@gmail.com, spencerwhitehead7@gmail.com",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.1.2"
