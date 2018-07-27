@@ -28,7 +28,7 @@ store.dispatch(sampleActionCreator(samplePayload))
 The ACF simplifies this into one step. It takes an action type and optionally a payload and returns an action creator:
 
 ```
-import ACF from 'action-creator-factory'
+import ACF from 'redux-action-creator-factory'
 
 const SAMPLE_TYPE = "SAMPLE_TYPE"
 
@@ -41,7 +41,7 @@ store.dispatch(ACF(SAMPLE_TYPE, "a payload"))
 
 ## Installation
 
-run `npm install action-creator-factory` in the command line from your project's directory.
+run `npm install redux-action-creator-factory` in the command line from your project's directory.
 
 ## Providing input to ACF
 
