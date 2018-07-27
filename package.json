@@ -1,7 +1,7 @@
 {
   "name": "redux-action-creator-factory",
-  "version": "1.0.0",
-  "description": " A fuction that accepts action types and payloads and returns Redux action creators",
+  "version": "1.0.1",
+  "description": "A function that accepts action types and payloads and returns Redux action creators",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./tests.spec.js"
